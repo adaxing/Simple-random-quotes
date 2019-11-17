@@ -1,0 +1,69 @@
+.main-page {
+  background-color: pink;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: white;
+  position: relative;
+  display: table;
+  margin: auto;
+  width: 450px;
+  padding: 40px 50px;
+  border-radius: 5px;
+}
+.quote-author {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.buttons {
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  cursor: pointer;
+  font-size: 0.7em;
+  padding: 8px 15px 5px 15px;
+  margin-top: 10px;
+}
+
+#tweet-quote, #tumblr-quote {
+  float: left;
+  height: 20px;
+  width: 30px;
+  font-size: 1em;
+  text-align:center;
+  margin-right: 5px;
+  padding: 0px;
+  padding-top: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: pink;
+  color: white;
+}
+#new-quote{
+  float: right;
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 3px;
+  background-color: pink;
+  color: white;
+}
+
+footer {
+  width: 30%;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  text-transform: scale(0.7);
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
